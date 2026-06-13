@@ -4,7 +4,7 @@
   <img src="profileImgn.png" width="250" alt="Profile Image">
 </p>
 
-### 🐛 Professional bug creator. Amateur bug fixer.
+<p align="center" style="font-weight:bold"> 🐛 Professional bug creator. Amateur bug fixer. </p>
 <!--
 **NaveenHiranya/NaveenHiranya** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
