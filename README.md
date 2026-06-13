@@ -1,7 +1,7 @@
 ## Hi there 👋
 
 
-![Profile Image](profileImg.png)
+![Profile Image](profileImgn.png)
 <!--
 **NaveenHiranya/NaveenHiranya** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
