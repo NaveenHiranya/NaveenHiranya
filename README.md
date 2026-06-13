@@ -1,9 +1,10 @@
-## Hi there 👋
-
+# Hi 👋 I'm Naveen Hiranya
 
 <p align="center">
   <img src="profileImgn.png" width="250" alt="Profile Image">
 </p>
+
+### 🐛 Professional bug creator. Amateur bug fixer.
 <!--
 **NaveenHiranya/NaveenHiranya** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
