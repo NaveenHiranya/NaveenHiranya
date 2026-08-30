@@ -1,88 +1,55 @@
+# Binary Skull ASCII Art
 
 ```text
-iz
- ,MM.
-  MMM:
-   rBMM7
-     ;,8MMZ
-      r  MMMM
-       ,   XMMMMX
-         ri  8M@MMM,
-         ix    0W0OMMMI
-          a     .Z2228MMMX
-          8       r2zaa0MMM;                         W
-          8;          7SSX2WMMMI                     M2
-          X;...          7ZX7XBMMMZ                  Ma
-           i;....          :X7;;XBMMM2     i         MM7
-            :;,,...          .r7i:i7BMMW   ZM        MM0
-             ;......             ,i: .iS@MM.  MM   aMMM
-             7:  ........  .,,,.,i;XBMM   ZMZ MAMM
-              2i .,.,....   ....,::;iXX8MM .Z8MM8MM
-              ix               ..  rXri;rrXMBar,MW8WMI
-               .S ;: :i  ...,i  7X;;X2SXMMZ WMZ0M@
-               2,7X  r    .  .2S i77r72S;SMM:aM0ZWMS
-                ;XiM  Zi      .:Za 7Si7a27;ZMSX@8S8MM7
-                S,W: WB     irB2X2;;72SXSM2ZM8Z8MMMW
-   .. i088WMWB8a27:XX0M8W8.BM;      ::ZB2778M07SrW28M82a00WMI
-           iSZZZi      S8ZBiWMW::ZX :,WMM@.MWaB0MZ0BMZ0aZBMMMMMM0
-                  ,WMMMB. :M0MZMMM8,0@..aM      MW0ZBWMZWZZZZZa2aaaaBM@
-          iZWM0.        2MMMMMM XMMZXMMW    :WaMM8aMMZZ08aZZZ88ZZa2ZZMX
-        rMMS          r28WMMr 7M     .MMM7    XB  XMW8@0SZ80ZaZ288aa80B820S
-      ia:       rZZ0B0MMW    8   ..   M   .i.     MM0aMMMMMMMW8ZZZ8ZaMWBZBa
-     r:       r28WMMMMMI    M, ..  aM       7 ,    M0MM       ZWMMW800Z808B8@S
-   72i72WMMMMMMMMMMM:     Mi ..  W0       7X  ;MM;MMM           8MBZ8B0ZZa88MX
-0MMMMMBS,           X      Mi      M7       77  MMMM7MM.7: X    ; rZMZ288B0Z808Mr
-MMM2              @r      Mi    .M.   .  8,  aM@MM;BMS 8Mir,   i X7MB20B8Z8Z8ZZM
-.aM,                rM      @;     rW   . ,Z. MMZBMM;MM MMMM 2 .   ;;MMB8B0000a8Z8M      ,i77aMMM8.
-                02  .    MX      r0  .. :S ,MMZrM02 MrSMMMM :   .r;8MM00S8Z8a800@M
-             a .:      Mr      MZ   .. 7a aMZ0iMB7        iBM r . ;:rMMMMMMMMMMMMMZX2;;rrBMM8,
-             B2i ;  MX     MZ      :r WMBX:ZMS7i   ,. iaM.r . iiiM2rrXXSri        iSMMWi
-            M@ :i  MZ i  X@  .   ;X:MMM:;.M2Xi   ...:iM@     ,7iM2;;          X8BMMMZ
-            ZB ;   MM X    M   ..:2iMM,W  8MX;  .,...- wMS,    7,MMMMMMMMMMMMMMMX
-           rii:  2MM ;    MB   i;SZM8.i8 .MSr:  .....   ;0@7   .2iMa.            .;ZBW88@MMMMMMM8a,
-          X:S, XMMM Z   MM  .Xr28M7: a: 0W;,  ..,...    MB@.   X:MWr:X77r:           :ZMMM0;
-         ,ra,;MMMMM0   ZM@ .27XBM7ii Z. M7,   ..,...    0XM.   S,BMri      .rr288BMMMZ
-         XX8:BMMM2 Mi  rMM  2aiMMi,.  Z r8;.  ...        .MZriai2M78Z@MMMWB8WMMMr
-        2080MMM    M  .MBM ;W0MMr     7 W7:               .XBMMMM;,2r7MMMBWMM@MMMMW0MMM
-       SM@MM8       Si  W2MZ 72MMMMMWX,  ia,      r7Z20MMMMMMMMMM7,ra:MMMMMI    WM0BBW0MM0
-       MMMB         M  ZZZM..2BMMMMMMMMM 7  ,  MMMMMMMMBWV0WMMMMZ;:Z:MMMWMMWMM MMB8aB8BMM;
-      MMW           Z  7ZaMM 7ZMM2X 220ZM@X . MMMMMM  8aZaXX2W8MM2.0rMMMMMBM0B,8MMMMMMMMMMM
-     MM             @.;8ZMM0iZWMM:M8;Z02       MWX8:     aWM0BM0880M,ZrW@MXMrM,ZSZi  ZB.   0MMM.
-    MM             @i.ZZM@Wr20MMM7SM8r.  ,i   Br;i   ,,r: rZ0BM2ZXM7Xa@MMSM7iiZZM              ;
-   iM              .@ Z0MW M2ZWMMM        ;.. ,S;i,  ,         iSZ7MM;@WMM Zr ;M:
-   M               M;7BM@  M0@MaZ@M8      ...   227X7:           iB287BM:W0M8i0  M
-                   MiMMM   MWM M.MWM7   .,...  M27X2SX:     ;2BWaSBX7MiB0MMBWMMM
-                   .M2MM   SMMr MrZBBM  ....  iMZ2aa2XXXSS22XXXSSZXXM2XBMMMMMMZMa
-                    WZMM    WMM   8 MXMM:  ... XM@MW82X7rrrr,;XXXS08ZMMi@MMMWWZM
-                    MMM     BM    a B aZM2  .. .MM0SXrr77777iXSSX2W8aMM MMMZ2MZM
-                    MM7     MM      ;rXr;.M8       .;7rrrrr7r7SSa2XZMMM;aMBBZ@8M;
-                    MM      M       7 @ B WMM   20SS2aaSrr7rX2ZS;;@MMMMMrM0MWMBBM
-                    XM      M         .@ @ aZMM,        ..;i;7S7;;MMMMMMMM,MMWB8W8M
-                    MM      ;         Xi.7 XZaMM@    :i::i;;;S7XMMM8WMM0MMZMMW@B0MMXr
-                    M                    SZ   iarWSMM      ::.  i2MMM22MMW20@MM0MBMW08BWMZ
-                   .M                    20    W 0;MMMI        SWMMMBZ@M@0M0BWMM@MBBW0BW0;XM
-                    W                     M    W 27MMMMMMMMMMMW@MMMMB00MW8BM@MMMB@S@B7rX8M
-                                          M7   B 2S0MMM8@MMMMMMMW822WX00M22WBBMWBWMW27XXX8M
-                                          SM   B Sa8MBMMB@80WW8aS@ZaZMS8SMX80B8MM@MWXr7XXX72@M;
-                                           M   0 780M ;M8MMWMWMW00MB82MW7rM8WZM@MMW2;rX777XXXXXWM
-                                           aX  Z XZWM MMM aXSMMBBBMXMrXZM;7WM8WMMM2i;7XX77XXXXX7rZM
-                                            B ai2aM  M8Mr:W 8M8B0MXSZMZ20MMMMZii7XXXXXXSSXXXSXi2M
-                                             :i;SSMB MM8M7;2a W8aBM828@MMMMW7,i7XXSXXXXSX7X7XX77rSM
-                                              a:8ZM MMBWM M,M 0@  XMWMMM0i.:7XSSXXXXSXXX7XXXXXXX7S7XM
-                                              .XMBS M8XWS.i M iMaWMMMZi.,rS22SSXXSX7XX777S77rrX7XXS0M
-                                               @MMXW0r;Si  r@MMMM8r ,iirXSSr:i7SSX77777X77XS2XXXXS: .M:
-                                               MBMWSa:S2ZWMMZi   .i;.,;7:. .;S7:i;r7X77XSaS;  :7;i,   Z
-                                                aWMia7X0WM,      ,. ..i7;. .r2r. ,r7XrXX22;   ,ii.     ;
-                                                MMM:82B@a        .     .:.  i7:   SZaa227.               X
-                                               MaMM:@@7                     .rXi,;..aX:,i.                :
-                                             M   MM S
-                                           @     8M
-                                          Z       M
-                                        X    .    M
-                                       ,
-                                      .
-                                     ;
-                                    ,
-                                   .
+
+                       001000100100011011 1 10 0 0    00100011011 1 10 0 0
+             1011000 101100011000000101 11 01 0 11 0 0 011 1010 1  1 0 0 01 1
+           1101010 1101010001011101011010 101 1011 100 0111010  11  10   1 0
+         1101101 1101101111010111010100111110 1111010 1 10         11      1 10
+       11110100 11110100101110111110000101000 0 1 01 111 000101 00 0 1 01  11  0
+     1110011 111001111011110101110101111 10 11010 11 00 10 11     0  0 11  00 1
+    1001101010011010100010111010111010111 10110 1101 10110010  1 1 0110  1  1
+   1110101 111010111101011101111010110111 10 0 01 0 011 10111  10 0 01 0  1  1
+  0001100 000110000010111010100011110101000101 10 1010 101 0101 0 10   10 1  1   1 0
+ 1011101 1011101011011011110101111000010 100 0101 00111 001001 00 0101      1  10
+ 1 111001 1 11100111101101110101111101100 110 01 10 111100 110 01 10
+11 0101 110 010100010111010111010001011 00 11 1 10100 01 100 11 1      0   1 1
+00 1110 00 11101111100001101010111010010101101 10 11  10 1101 01 10 11  0 11 1  0
+111 1110 111 11100001110111001101000100010001101 110 00 10 100011011 110 00 10 1
+100 011 100 01100000101110101000111101010001011 101 1110 1 0001 011 101 1110  10   1
+11 0101 111 0101101101111101011110101110111110 100 1011 10 111 11 100 1011 10    1 1 1
+111 000 111 00001010001011101110011110101111 0111 101 1 111 111 0111 01 1  11 1
+011 001 01 1 00110011001 10101000101110101110101110 10 111 01 10101110  10  1 101 1
+01 1 1110 01 1 11101011 110101 1 10111101111010111110 00 01 0 11 0 0111  0001 0  11 0       0
+0 11 00 0 11 00000 10      111010 11101010001111010100 1101 00 0 10101 0     00  10 1
+ 11 0 10 11 0 10 11          101010 1010111010 11 0  1  10101 1010  11 0          1
+ 10 11 1 10 11 11              110111 10101111 0 1  111 1  10010 11  0 11 1   1  10      0  0
+ 01 01   01 01                 0001011 00010111 01 111 00 11001 0 1  11 00 11      1 1
+ 0 111   0 111                 1010101 1 101011 101  11  1  1101011 10            1 11
+011 111 011 1110               011011 11001 100 1100     1101001 10 1100     11         0 1
+0 10001 0 10001011            101010 1010111  01 01 1  101 0 101 0 10 010  1101 0 0          010  1
+10 0111 10 0111011001110 1100 11111000000 1  10 10 1 0 1001 0  1  0 10  100  0 1 1 1         0
+10 01 0 10 01 010110110111011101111100 100111 011 10  0 1  0 00111  011 10  0 1
+10 1001 10 1001000100011011110001011 0 001 0 100 10 001 0 1001       100    0 0 01 0
+ 1 11010 1 1101010001111010100010111 0 1011 0100 10111101 1011      10   101
+ 11 0101 11 01011011011111 01011110 10101110 1010111101 111010  1 01   1101  11        1 01
+  00 1011 00 1011101 11 1110000 111000 1 010 10  100 10 1110  1010110 10111 0 0 1          10111 0 0
+   111 10111 101 11 1110101 10101110111 011  11 00 1110 11 011   11 10      1    1
+    0011 00 0011 001 1010 00110101 00010111 11 10 010 11 111 010           111  0
+          1011      10110110 101011011011 1110 1 0 10 111111 111      010 11 1
+          1010      10100 111 11110111 10 10  11 0 1 1101 111 0 11 0        111  0
+          00101     001010 1000 0 11 0 00 00 011 000 1 11 0 10001 001 0  1 11        010 1
+          00011     000110 11 010  10 00 0111 00 01 0 0 00 00 01 11 0  1 10
+         1110101 1110101 11 010  1101 10 11 0111 101 1101 10 11 111  0 1
+         0111101 011110101 111 000 010 10 00 1010 100 010 1 0 00  10  1 1  1
+         0111001 0111001111 01111 1010111 0 01 1010 1 0101  1  01  10 1 1  1
+          101100 110110011 00 110 011 010 1000 1 00 111 001 1 000 1  01 11 0  1
+           0111010 0111010111 010 001 01100 11 10 11 1001 01100 11 10 1   1
+            0011101 00111011111000011010100 11 11 00 011010 01 11 1   0
+             1001010 1001010110110111 1 01 111 0110 1101 11  01 111 1    1
+              000011 0000111011100 110 10 010 100 01100 10110 10 0 10   00   1
+               0001101 000110111  10001 0 010 00 0111  10001  01 1 0
+                0011000 00110000 01 01 1      00110000 01 01 1
+                    1010  10100  10  0 0 1 1 1  1010  10 0 0 1 1 1
 
 ```
